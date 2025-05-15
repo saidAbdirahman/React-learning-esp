@@ -1,4 +1,15 @@
-.bg{
-    color: aqua;
-    background-color: brown;
+/* Navbar.css */
+.navbar {
+  background-color: #24292e;
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
 }

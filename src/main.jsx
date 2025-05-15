@@ -8,7 +8,7 @@ import ModuleCss from './ModuleCss'
 import StyleComponents from './StyleComponents'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <StyleComponents />
-  </StrictMode>,
+    <StyleComponents />
+  </StrictMode>
 )
 

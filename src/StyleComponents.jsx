@@ -1,17 +1,20 @@
-import styled from "styled-components"
-const StyledH1 = styled.h1`
-    color: green;
-    `
-function StyleComponents(){
-   
-    
-    return (
-        <div>
-            <h1> h1 plain  </h1>
-            
-            <hr />
-         <StyledH1>h1 not plain</StyledH1>
-        </div>
-    )
-}
-export default StyleComponents
+
+// AlertBox.js
+import React from 'react';
+import styled from 'styled-components';
+
+const Alert = styled.div`
+  background-color: #ffe0e0;
+  border: 1px solid #ff5c5c;
+  padding: 16px;
+  border-radius: 5px;
+  color: #a70000;
+  font-family: sans-serif;
+  margin: 10px 0;
+`;
+
+const AlertBox = () => {
+  return <Alert>Error: Something went wrong!</Alert>;
+};
+
+export default AlertBox;

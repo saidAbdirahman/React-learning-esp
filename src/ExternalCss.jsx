@@ -1,10 +1,18 @@
-import "./External.css"
-function ExternalCss(){
-    return (
-        <h1 className="bg">
-            External CSS
-        </h1>
-    )
-}
+// Navbar.js
+import React from 'react';
+import './External.css';
 
-export default ExternalCss
+const  ExternalCss = () => {
+  return (
+    <nav className="navbar">
+      <h2>MyWebsite</h2>
+      <ul className="nav-links">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  );
+};
+
+export default ExternalCss;

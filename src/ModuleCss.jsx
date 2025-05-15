@@ -1,9 +1,14 @@
-import Style from "./Style.module.css"
-function ModuleCss(){
-    return (
-        <h1 className={Style.h1}>
-            ModuleCss
-        </h1>
-    )
-}
-export default ModuleCss
+// ModuleCss.js
+import React from 'react';
+import styles from './Style.module.css';
+
+const ModuleCss = () => {
+  return (
+    <div className={styles.card}>
+      <h3 className={styles.title}>Wireless Headphones</h3>
+      <p className={styles.price}>$199</p>
+    </div>
+  );
+};
+
+export default ModuleCss;
